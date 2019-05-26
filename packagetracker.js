@@ -22,7 +22,6 @@ function getStato(track){
     }
 }
 function resolveStatusCode(code){
-    console.log(code);
     switch(code){
         case 2: return "Presa in Carico";
         case 3: return "In Transito";
