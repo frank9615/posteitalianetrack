@@ -56,6 +56,7 @@ function main(){
         return ;
     }
     var statuscode = getStato(track);
+    mynotify(resolveStatusCode(statuscode));
     while(statuscode!=5){
         sleep(10000); //update every 10 minute
         var code = getStato(getTrack(idtrack));
